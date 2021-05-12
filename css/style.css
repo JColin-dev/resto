@@ -2,8 +2,8 @@
     color: white;
 }
 
-.navbar-light .navbar-brand {
-    color: #aad3e9;
+.navbar-light .navbar-brand, h1, h5 {
+    color: #7dc9f1;
 }
 
 .card {
@@ -13,7 +13,60 @@
 h1 {
     display: flex;
     justify-content: center;
-    margin: 10px;
+    margin: 25px;
 }
 
+.simple {
+    border: 1px solid black;
+    margin: 10px;
+    background-color: rgb(160, 158, 158);
+}
 
+.col-lg-6, p, h5, .col-lg-2, .col-lg-5 {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+
+h5 {
+    margin: 5px;
+}
+
+.jumbotron {
+    background-color: grey;
+}
+
+.social {
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 20px;
+}
+
+i {
+    margin: 10px;
+    font-size: 30px;
+}
+
+.fa-facebook {
+    color: blue;
+    background-color: white;
+} 
+
+.fa-twitter {
+    color: #00ACEE;
+}
+
+.row {
+    display: flex;
+    justify-content: center;
+}
+
+.chausson {
+    padding: 10px;
+}
+
+.container {
+    border-left: 1px solid gray;
+    border-right: 1px solid gray;
+}
